@@ -1,6 +1,7 @@
 scrivito_video
 =====================
 
+[![Gem Version](https://badge.fury.io/rb/scrivito_video.svg)](http://badge.fury.io/rb/scrivito_video)
 [![Code Climate](https://codeclimate.com/github/infopark/scrivito_video/badges/gpa.svg)](https://codeclimate.com/github/infopark/scrivito_video)
 
 A Widget for Scrivito to add a video widget using projekktor.
