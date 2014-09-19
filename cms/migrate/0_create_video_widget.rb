@@ -11,12 +11,7 @@ class CreateVideoWidget < ::Scrivito::Migration
         {
           name: 'poster',
           type: :reference,
-        },
-        {
-          name: 'autoplay',
-          type: :enum,
-          values: %w(Yes No),
-        },
+        }
       ]
     )
   end
