@@ -1,13 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "scrivito_video/version"
+require "scrivito_video_widget/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |gem|
   gem.platform    = Gem::Platform::RUBY
-  gem.name        = 'scrivito_video'
-  gem.version     = ScrivitoVideo::VERSION
+  gem.name        = 'scrivito_video_widget'
+  gem.version     = ScrivitoVideoWidget::VERSION
   gem.summary     = 'Scrivito video Widget.'
   gem.description = 'Scrivito video Widget.'
 

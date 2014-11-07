@@ -1,5 +1,9 @@
 # Changelog: Video Widget
 
+## 1.0.3
+
+* Rename to new naming convention
+
 ## 1.0.2
 * Fix: Old autoplay attribute throws an error
 
