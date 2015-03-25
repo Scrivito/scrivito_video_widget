@@ -10,15 +10,14 @@ A Widget for Scrivito to add a video widget using projekktor.
 Add this lines to your application's `Gemfile`:
 
     gem 'scrivito_video_widget'
-    gem 'projekktor-rails'
 
 Add this line to your application Stylesheet manifest:
 
-    *= require video_widget/application
+    *= require scrivito_video_widget
 
 Add this line to your application javascript manifest:
 
-    /= require video_widget/application
+    /= require scrivito_video_widget
 
 After that, execute:
 

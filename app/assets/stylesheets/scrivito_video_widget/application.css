@@ -11,6 +11,4 @@
  * file per style scope.
  *
  *= require projekktor
- *= require_tree .
- *= require_self
  */
