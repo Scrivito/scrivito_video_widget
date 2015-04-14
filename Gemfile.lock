@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_video_widget (1.0.5)
+    scrivito_video_widget (1.0.6)
       bundler
       projekktor-rails
       scrivito_sdk
