@@ -19,6 +19,25 @@ Add this line to your application javascript manifest:
 
     /= require scrivito_video_widget
 
+Add a Filter to your content_browser
+
+    scrivito.content_browser.filters = {
+      obj_class: {
+        field: '_obj_class',
+        options: {
+          Quote: {
+            title: 'Video',
+            icon: 'video',
+            query: scrivito.obj_where('_obj_class', 'equals', 'Video'),
+            preset: {
+              _obj_class: 'Video'
+            }
+          }
+        }
+      }
+    };
+If you want to implement a Contextual filter, visit our [Documentation](https://scrivito.com/content-browser)!
+
 ## Changelog
 
 See [Changelog](https://github.com/Scrivito/scrivito_video_widget/blob/master/CHANGELOG.md) for more
