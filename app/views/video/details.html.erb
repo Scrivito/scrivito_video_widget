@@ -1,0 +1,13 @@
+<% meta = @obj.blob.meta_data %>
+
+<%= scrivito_details_for 'Titel' do %>
+  <%= scrivito_tag(:div, @obj, :title) %>
+<% end %>
+
+<%= scrivito_tag :div, @obj, :blob, class: 'image-replace-dropzone' do %>
+  Drop here to replace the Video
+<% end %>
+
+<%= scrivito_details_for "Size" do %>
+  <%= number_to_human_size(@obj.binary_length) %>
+<% end %>
