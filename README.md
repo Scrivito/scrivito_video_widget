@@ -1,6 +1,6 @@
 # ScrivitoVideoWidget
 
-A Scrivito widget that lets you place a video onto a page.
+A Scrivito widget that lets you place a video onto a page unsing [Projekktor](http://www.projekktor.com/)
 
 ## Installation
 
@@ -14,7 +14,7 @@ Add this line to your application stylesheet manifest:
 
 Add this line to your application JavaScript manifest:
 
-    /= require scrivito_video_widget
+    //= require scrivito_video_widget
 
 ## Video class
 
