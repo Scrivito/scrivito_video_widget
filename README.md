@@ -26,3 +26,18 @@ class Video < Obj
   ...
 end
 ```
+
+## Localization
+
+The following code represents the default localization for English. Copy it to your `en.yml` and change it if necessary:
+
+```yaml
+en:
+  scrivito_video_widget:
+    thumbnail:
+      title: Video
+      description: Displays a video player for the given video file
+    details:
+      source: Source
+      poster: Poster
+```
