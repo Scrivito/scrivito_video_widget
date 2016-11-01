@@ -12,7 +12,7 @@ Add this line to your application stylesheet manifest:
 
     *= require scrivito_video_widget
 
-If you are using `sass-rails` use this for loading the css instead:
+If you are using `sass-rails`, use this for loading the css instead:
 
     @import 'projekktor';
     @import 'scrivito_video_widget/dynamic_video_container';
