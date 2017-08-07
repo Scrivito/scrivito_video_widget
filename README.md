@@ -1,6 +1,6 @@
 # ScrivitoVideoWidget
 
-A Scrivito widget that lets you place a video onto a page unsing [Projekktor](http://www.projekktor.com/)
+A Scrivito widget that lets you place a video onto a page using [Projekktor](http://www.projekktor.com/)
 
 ## Installation
 
